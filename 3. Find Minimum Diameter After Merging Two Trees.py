@@ -38,7 +38,7 @@ class Solution(object):
 
                 return farthest_node, dist
 
-            # Find the farthest node from any arbitrary node (e.g., node 0)
+            # Find the farthest node from any arbitrary node (e.g, node 0)
             farthest_node, _ = bfs(0)
             # Find the farthest node from `farthest_node` to determine the diameter
             _, dist = bfs(farthest_node)
