@@ -1,6 +1,6 @@
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
-        // Precompute a prefix sum array where each entry indicates the count of vowel strings up to that index
+        // Precompute a prefix sum array where each entry indicates the count of vowel strings upto that index
         int n = words.length;
         int[] prefix = new int[n + 1];
 
