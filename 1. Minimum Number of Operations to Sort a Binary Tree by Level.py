@@ -16,7 +16,7 @@ class Solution(object):
         def min_swaps_to_sort(arr):
             """
             Helper function to find the minimum number of swaps required
-            to sort an array in strictly increasing order.
+            to sort an array in strictly increasing order
             """
             n = len(arr)
             indexed_arr = [(value, index) for index, value in enumerate(arr)]
