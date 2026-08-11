@@ -10,7 +10,7 @@ class Solution(object):
         """
         :type root: Optional[TreeNode]
         :rtype: int
-        """
+        """ 
         from collections import deque
         
         def min_swaps_to_sort(arr):
