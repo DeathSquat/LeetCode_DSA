@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int numDistinct(string s, string t) {
+    int numDistinct(string s,string t) {
         int m = s.length(), n = t.length();
         if (m < n) {
             return 0;
